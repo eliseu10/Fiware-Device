@@ -1,0 +1,63 @@
+{
+	"device_id": "RoboticArm1",
+	"entity_name": "RoboticArm1",
+	"entity_type": "selcomp",
+	"transport": "MQTT",
+	"attributes": [
+		{
+			"object_id": "BaseRotation",
+			"name": "BaseRotation",
+			"type": "int"
+		},
+		{
+			"object_id": "BaseRotationSamplingRate",
+			"name": "BaseRotationSamplingRate",
+			"type": "int"
+		},
+		{
+			"object_id": "ShoulderEngine",
+			"name": "ShoulderEngine",
+			"type": "int"
+		},
+		{
+			"object_id": "ShoulderEngineSamplingRate",
+			"name": "ShoulderEngineSamplingRate",
+			"type": "int"
+		},
+		{
+			"object_id": "ElbowEngine",
+			"name": "ElbowEngine",
+			"type": "int"
+		},
+		{
+			"object_id": "ElbowEngineSamplingRate",
+			"name": "ElbowEngineSamplingRate",
+			"type": "int"
+		},
+		{
+			"object_id": "WristEngine",
+			"name": "WristEngine",
+			"type": "int"
+		},
+		{
+			"object_id": "WristEngineSamplingRate",
+			"name": "WristEngineSamplingRate",
+			"type": "int"
+		},
+		{
+			"object_id": "GripperEngine",
+			"name": "GripperEngine",
+			"type": "int"
+		},
+		{
+			"object_id": "GripperEngineSamplingRate",
+			"name": "GripperEngineSamplingRate",
+			"type": "int"
+		},
+		{
+			"object_id": "Speed",
+			"name": "Speed",
+			"type": "int"
+		}
+	]
+}
