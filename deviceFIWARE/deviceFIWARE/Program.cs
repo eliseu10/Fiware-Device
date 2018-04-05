@@ -31,7 +31,7 @@ namespace device_robot
             SubscribeTopicsList topSub = new SubscribeTopicsList(TOPICS_PATH, localIP, topicStrings);
             topSub.getList();
 
-            System.Threading.Thread.Sleep(3000);
+            System.Threading.Thread.Sleep(10000);
             topSub.disconnect();
 
             PublishData pubData = new PublishData(TOPICS_PATH, localIP, deviceID.ToString());
